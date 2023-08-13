@@ -1,8 +1,8 @@
 # Text-Classification-using-fastText
 
-# The code begins by importing necessary libraries including Pandas for data manipulation, regular expressions (re) for text preprocessing, and FastText for text classification.
+The code begins by importing necessary libraries including Pandas for data manipulation, regular expressions (re) for text preprocessing, and FastText for text classification.
 
-# A CSV file named "ecommerce_dataset.csv" is loaded into a Pandas dataframe with columns 'category' and 'description'. Since the CSV lacks headers, column names are specified using the 'names' parameter. The first few rows of the dataframe are displayed using .head().
+A CSV file named "ecommerce_dataset.csv" is loaded into a Pandas dataframe with columns 'category' and 'description'. Since the CSV lacks headers, column names are specified using the 'names' parameter. The first few rows of the dataframe are displayed using .head().
 
 # The distribution of categories in the 'category' column is displayed using .value_counts().
 
